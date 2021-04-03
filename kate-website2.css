@@ -1,0 +1,55 @@
+body {margin:0;}
+
+.title{
+    padding: 10px;
+    text-align: center;
+    background: #bdcebe;
+    color: white;
+    font-size: 30px;
+}
+
+/* Top navbar change background color */
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+/* Links inside the navbar */
+.navbar a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* change background on mouse-over */
+.navbar a:hover {
+  background: #ddd;
+  color: black;
+}
+
+/* Main content */ 
+.main {
+  padding: 16px;
+  margin-top: 30px;
+  height: 1500px; /* Used to enable scrolling */
+}
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+    height: 40%;
+    float: left;
+    padding-right: 20px;
+  }
+.clearfix::after{
+    content: "";
+    clear:both;
+    display: table;
+}
