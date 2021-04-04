@@ -7,6 +7,8 @@ body {margin:0;}
     background: #bdcebe;
     color: white;
     font-size: 30px;
+    margin-left: -20px;
+    margin-right: -20px;
 }
 
 /* Top navbar change background color */
@@ -38,7 +40,7 @@ body {margin:0;}
 .main{
   padding: 16px;
   margin-top: 30px;
-  height: 1500px; /* Used to enable scrolling */
+  height: 2000px; /* Used to enable scrolling */
   background: #f4e1d2;
 }
 
@@ -52,13 +54,14 @@ img {
     float: left;
     padding-right: 20px;
   }
+  /*https://www.w3schools.com/css/css_align.asp*/ 
 .clearfix::after{
     float: right;
     content: "";
     clear:both;
     display: table;
 }
-
+/*https://www.w3schools.com/cssref/tryit.asp?filename=trycss3_background_hero*/
 .hero-image {
     background-image: url("https://cdn.laredoute.com/products/680by680/4/8/0/48066ffb9b72f0ec9aa9f23c8f9625d7.jpg");
     background-color: #fefbd8;
@@ -67,6 +70,8 @@ img {
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
+    margin-left: -20px;
+    margin-right: -20px;
   }
   
   .hero-text {
@@ -77,3 +82,49 @@ img {
     transform: translate(-50%, -50%);
     color: #618685;
   }
+
+  .flex-container {
+    display: flex;
+    background-color:  #f4e1d2;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 200px;
+  }
+
+ 
+.flex-container > div {
+    background-color: #f4e1d2;
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+    text-align: center;
+    line-height: 30px;
+    font-size: 20px;
+    flex-basis: 300px;
+}
+
+/*https://codepen.io/anthonyadamski/pen/ukghm*/
+.skill-set li:hover
+{
+	background:#3498db;
+}
+ul
+{  list-style-type:none;
+	margin-top:-10px;
+	max-width:570px;
+	padding:0;
+}
+.skill-set li
+{
+	background:rgba(0,0,0,.75);
+	border-radius:5px;
+	color:#FFF;
+	display:inline-block;
+	list-style:none;
+	margin:15px 15px 0 0;
+	padding:10px;
+	text-align:justify;
+}
