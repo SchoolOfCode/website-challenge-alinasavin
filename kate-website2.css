@@ -61,9 +61,12 @@ img {
     content: "";
     clear:both;
     display: table;
+   
 }
 .clearfix {
     background-color:  #f4e1d2;
+    margin-left: -10px;
+    margin-right: -10px;
 }
 
 /*https://www.w3schools.com/cssref/tryit.asp?filename=trycss3_background_hero*/
