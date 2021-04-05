@@ -45,6 +45,7 @@ body {margin:0;}
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
+/*https://www.w3schools.com/css/css_rwd_images.asp*/
 img {
     display: block;
     margin-left: auto;
@@ -99,13 +100,13 @@ img {
     justify-content: center;
     justify-content: space-between;
     align-items: center;
-    margin-top: 200px;
+    margin-top: 500px;
   }
 
  /*source of info W3School- flexbox*/
 .flex-container > div {
     background-color: #f4e1d2;
-    width:400px;
+    width:500px;
     height: 400px;
     margin: 50px;
     text-align: center;
@@ -136,3 +137,28 @@ ul
 	padding:10px;
 	text-align:justify;
 }
+
+/*https://www.w3schools.com/css/tryit.asp?filename=trycss_float_images_side*/
+* {
+    box-sizing: border-box;
+  }
+  
+  .img-container {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+    text-align: center;
+  }
+  
+  .clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  h3{
+      text-align: center;
+      color: #618685;
+  }
+  p{
+      text-align: center;
+  }
