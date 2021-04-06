@@ -62,12 +62,14 @@ img {
     content: "";
     clear:both;
     display: table;
+    margin-top: 20px;
    
 }
 .clearfix {
     background-color:  #f4e1d2;
     margin-left: -10px;
     margin-right: -10px;
+    margin-top: 100px;
 }
 
 /*https://www.w3schools.com/cssref/tryit.asp?filename=trycss3_background_hero*/
@@ -100,7 +102,7 @@ img {
     justify-content: center;
     justify-content: space-between;
     align-items: center;
-    margin-top: 500px;
+    margin-top: 200px;
   }
 
  /*source of info W3School- flexbox*/
