@@ -102,7 +102,7 @@ img {
     justify-content: center;
     justify-content: space-between;
     align-items: center;
-    margin-top: 200px;
+    margin-top: 80px;
   }
 
  /*source of info W3School- flexbox*/
@@ -160,6 +160,7 @@ ul
   h3{
       text-align: center;
       color: #618685;
+      margin-top: 50px;
   }
   p{
       text-align: center;
