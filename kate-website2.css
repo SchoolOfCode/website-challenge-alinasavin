@@ -40,7 +40,7 @@ body {margin:0;}
 .main{
   padding: 16px;
   margin-top: 30px;
-  height: 2000px; /* Used to enable scrolling */
+  height: 2000px; /*to enable scrolling*/
   background: white;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
@@ -50,7 +50,7 @@ img {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 30%;
+    width: 20%;
     max-width: 100%;
     height: 40%;
     float: left;
@@ -71,7 +71,7 @@ img {
     margin-left: -10px;
     margin-right: -10px;
     margin-top: 100px;
-    margin-bottom: 50px;
+    margin-bottom: 70px;
 }
 
 /*https://www.w3schools.com/cssref/tryit.asp?filename=trycss3_background_hero*/
@@ -165,7 +165,7 @@ ul
     content: "";
     clear: both;
     display: table;
-    margin-bottom: 100px;
+    margin-bottom: 200px;
   }
 
 
@@ -178,3 +178,5 @@ ul
       text-align: center;
   }
   
+
+
