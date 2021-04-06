@@ -50,7 +50,7 @@ img {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 20%;
+    width: 30%;
     max-width: 100%;
     height: 40%;
     float: left;
@@ -63,6 +63,7 @@ img {
     clear:both;
     display: table;
     margin-top: 20px;
+    text-align: center;
    
 }
 .clearfix {
@@ -70,6 +71,7 @@ img {
     margin-left: -10px;
     margin-right: -10px;
     margin-top: 100px;
+    margin-bottom: 50px;
 }
 
 /*https://www.w3schools.com/cssref/tryit.asp?filename=trycss3_background_hero*/
@@ -103,6 +105,13 @@ img {
     justify-content: space-between;
     align-items: center;
     margin-top: 80px;
+  }
+/*https://www.w3schools.com/css/css3_flexbox_responsive.asp*/
+  /* Responsive layout - makes a one column layout instead of a two-column layout */
+  @media (max-width: 1000px) {
+    .flex-container {
+      flex-direction: column;
+    }
   }
 
  /*source of info W3School- flexbox*/
@@ -156,8 +165,11 @@ ul
     content: "";
     clear: both;
     display: table;
+    margin-bottom: 100px;
   }
-  h3{
+
+
+  h3 {
       text-align: center;
       color: #618685;
       margin-top: 50px;
@@ -165,3 +177,4 @@ ul
   p{
       text-align: center;
   }
+  
