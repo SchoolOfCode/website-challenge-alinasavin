@@ -50,7 +50,7 @@ img {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 20%;
+    width: 30%;
     max-width: 100%;
     height: 40%;
     float: left;
@@ -67,18 +67,21 @@ img {
    
 }
 .clearfix {
-    background-color:  #f4e1d2;
+    /*background-color:  #f4e1d2;*/
     margin-left: -10px;
     margin-right: -10px;
     margin-top: 100px;
     margin-bottom: 70px;
+    color: #618685;
 }
 
 /*https://www.w3schools.com/cssref/tryit.asp?filename=trycss3_background_hero*/
 .hero-image {
-    background-image: url("https://cdn.laredoute.com/products/680by680/4/8/0/48066ffb9b72f0ec9aa9f23c8f9625d7.jpg");
+    /*background-image: url("https://images.unsplash.com/photo-1603705356887-0c1a1927ea7e?ixid=MXwxMjA3fDB8MHx0b3BpYy1mZWVkfDMyfGJvOGpRS1RhRTBZfHxlbnwwfHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60");*/
+    /*background-image: url("https://images.unsplash.com/photo-1608463026422-8f43ab4ebac0?ixid=MXwxMjA3fDB8MHx0b3BpYy1mZWVkfDE4OXw2c01WalRMU2tlUXx8ZW58MHx8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=900&q=60");*/
+    background-image: url("https://images.unsplash.com/photo-1545229555-f8e4c81ac0a4?ixid=MXwxMjA3fDB8MHx0b3BpYy1mZWVkfDI4OXw2c01WalRMU2tlUXx8ZW58MHx8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60");
     background-color: #fefbd8;
-    height: 500px;
+    height: 100vh;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -93,27 +96,50 @@ img {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    color: #618685;
+    color: white;
+  }
+  
+
+
+
+/*https://www.w3schools.com/css/tryit.asp?filename=trycss_float_images_side*/
+* {
+    box-sizing: border-box;
+  }
+  
+  .img-container {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+    text-align: center;
+  }
+  
+  .clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+    margin-bottom: 500px;
+  }
+
+/*https://www.w3schools.com/css/css3_flexbox_responsive.asp*/
+  /* Responsive layout - makes a one column layout instead of a two-column layout */
+  @media (max-width: 1000px) {
+    
+    .flex-container {
+      flex-direction: column;
+    }
   }
 /*source of info W3School- flexbox*/
-  .flex-container {
+.flex-container {
     display: flex;
     background-color: white;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
-    justify-content: space-between;
+    justify-content: space-evenly;
     align-items: center;
-    margin-top: 80px;
+    margin-top: 700px;
   }
-/*https://www.w3schools.com/css/css3_flexbox_responsive.asp*/
-  /* Responsive layout - makes a one column layout instead of a two-column layout */
-  @media (max-width: 1000px) {
-    .flex-container {
-      flex-direction: column;
-    }
-  }
-
  /*source of info W3School- flexbox*/
 .flex-container > div {
     background-color: #f4e1d2;
@@ -127,6 +153,7 @@ img {
 }
 
 /*https://codepen.io/anthonyadamski/pen/ukghm*/
+/*https://freefrontend.com/html-resume-templates/*/
 .skill-set li:hover
 {
 	background: #618685;
@@ -148,28 +175,7 @@ ul
 	padding:10px;
 	text-align:justify;
 }
-
-/*https://www.w3schools.com/css/tryit.asp?filename=trycss_float_images_side*/
-* {
-    box-sizing: border-box;
-  }
-  
-  .img-container {
-    float: left;
-    width: 33.33%;
-    padding: 5px;
-    text-align: center;
-  }
-  
-  .clearfix::after {
-    content: "";
-    clear: both;
-    display: table;
-    margin-bottom: 200px;
-  }
-
-
-  h3 {
+  h4 {
       text-align: center;
       color: #618685;
       margin-top: 50px;
