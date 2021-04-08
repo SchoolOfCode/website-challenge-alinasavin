@@ -40,7 +40,7 @@ body {margin:0;}
 .main{
   padding: 16px;
   margin-top: 30px;
-  height: 2000px; /*to enable scrolling*/
+  height: 3000px; /*to enable scrolling*/
   background: white;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
@@ -138,7 +138,7 @@ img {
     justify-content: center;
     justify-content: space-evenly;
     align-items: center;
-    margin-top: 700px;
+    margin-top: 100px;
   }
  /*source of info W3School- flexbox*/
 .flex-container > div {
