@@ -100,7 +100,7 @@ Used:
 
  I have created 3 `div class=block` to structure where my text is kept along the page.  I did this to give my page a bit more structure and for the layout. At the moment I have a different `div` for each block because the `margin` set-up is different. I have the margins set as the background goes over the next bit when I change it. 
 
-All in all I had a lot of fun doing this and learned a lot along the way.  
+All in all I had a lot of fun doing this and learned a lot along the way. Overall _The client_ was satisfied I hope you will be too!
 
 # Website Challenge
 
