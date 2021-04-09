@@ -40,7 +40,7 @@ body {margin:0;}
 .main{
   padding: 16px;
   margin-top: 30px;
-  height: 3000px; /*to enable scrolling*/
+  height: 5000px; /*to enable scrolling*/
   background: white;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
@@ -271,10 +271,13 @@ div.desc {
 
 }
 
+
 .row {
   display: flex;
   flex-wrap: wrap;
   padding: 0 4px;
+  margin-top: 50px;
+
 }
 
 /* Create four equal columns that sits next to each other */
@@ -295,4 +298,10 @@ div.desc {
     flex: 100%;
     max-width: 100%;
   }
+}
+
+footer{
+ background-color: #f4e1d2;
+ text-align: center;
+ color: #618685;
 }

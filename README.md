@@ -39,6 +39,12 @@ While doing the reasearch we had regular meetings to discuss around what we are 
 
 ## Info gathering
 
-I used [this survey](https://docs.google.com/forms/d/e/1FAIpQLSc07OIUW2kmO5TVBpccaRN8i7zCpBwx8GgLBAIkaXsaB--37Q/viewform?usp=sf_link) for Kate to pick her favourite layout and collor pallete. I used [W3School] (https://www.w3schools.com/colors/colors_palettes.asp) for the color pallete options. 
+I used [this survey](https://docs.google.com/forms/d/e/1FAIpQLSc07OIUW2kmO5TVBpccaRN8i7zCpBwx8GgLBAIkaXsaB--37Q/viewform?usp=sf_link) for Kate to pick her favourite layout and collor pallete. I used [W3School](https://www.w3schools.com/colors/colors_palettes.asp) for the color pallete options. 
+
+I used [this survey](https://docs.google.com/forms/d/e/1FAIpQLSfSIawvVidNMcOGtmCbKLgnioHM78wjvPK80QjR1m_gmoDd0g/viewform?usp=sf_link) to collect content information from _The client_.
+
+
+
+
 
 
