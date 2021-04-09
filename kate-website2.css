@@ -1,6 +1,6 @@
 body {margin:0;}
 
-/*tile color and padding*/
+/*tile settings*/
 .title{
     padding: 10px;
     text-align: center;
@@ -11,7 +11,7 @@ body {margin:0;}
     margin-right: -20px;
 }
 
-/* Top navbar change background color */
+/* Top navbar */
 .navbar {
   overflow: hidden;
   background-color: #96ceb4;
@@ -44,7 +44,33 @@ body {margin:0;}
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
+/* HERO IMAGE*/
+/*https://www.w3schools.com/cssref/tryit.asp?filename=trycss3_background_hero*/
+
+.hero-image {
+  background-image: url("https://images.unsplash.com/photo-1545229555-f8e4c81ac0a4?ixid=MXwxMjA3fDB8MHx0b3BpYy1mZWVkfDI4OXw2c01WalRMU2tlUXx8ZW58MHx8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60");
+  background-color: #fefbd8;
+  height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  margin-left: -20px;
+  margin-right: -20px;
+}
+
+.hero-text {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+
 /*https://www.w3schools.com/css/css_rwd_images.asp*/
+
+/* FLOATING TEXT next to image*/
 img {
     display: block;
     margin-left: auto;
@@ -55,6 +81,7 @@ img {
     float: left;
     padding-right: 20px;
   }
+
   /*https://www.w3schools.com/css/css_align.asp*/ 
 .clearfix::after{
     float: right;
@@ -74,33 +101,7 @@ img {
     color: #618685;
 }
 
-/*https://www.w3schools.com/cssref/tryit.asp?filename=trycss3_background_hero*/
-.hero-image {
-    /*background-image: url("https://images.unsplash.com/photo-1603705356887-0c1a1927ea7e?ixid=MXwxMjA3fDB8MHx0b3BpYy1mZWVkfDMyfGJvOGpRS1RhRTBZfHxlbnwwfHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60");*/
-    /*background-image: url("https://images.unsplash.com/photo-1608463026422-8f43ab4ebac0?ixid=MXwxMjA3fDB8MHx0b3BpYy1mZWVkfDE4OXw2c01WalRMU2tlUXx8ZW58MHx8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=900&q=60");*/
-    background-image: url("https://images.unsplash.com/photo-1545229555-f8e4c81ac0a4?ixid=MXwxMjA3fDB8MHx0b3BpYy1mZWVkfDI4OXw2c01WalRMU2tlUXx8ZW58MHx8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60");
-    background-color: #fefbd8;
-    height: 100vh;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: relative;
-    margin-left: -20px;
-    margin-right: -20px;
-  }
-  
-  .hero-text {
-    text-align: center;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    color: white;
-  }
-  
-
-
-/*used image boxing side by side*/
+/*IMAGE BOXING side by side*/
 /*https://www.w3schools.com/css/tryit.asp?filename=trycss_float_images_side*/
 * {
     box-sizing: border-box;
@@ -119,15 +120,8 @@ img {
     display: table;
   }
 
-/*https://www.w3schools.com/css/css3_flexbox_responsive.asp*/
-  /* Responsive layout - makes a one column layout instead of a two-column layout */
-  @media (max-width: 1000px) {
-    
-    .flex-container {
-      flex-direction: column;
-    }
-  }
-/*source of info W3School- flexbox*/
+/*  FLEXBOX SETTINGS source of info W3School-*/
+
 .flex-container {
     display: flex;
     background-color: white;
@@ -138,7 +132,7 @@ img {
     align-items: center;
     margin-top: 100px;
   }
- /*source of info W3School- flexbox*/
+
 .flex-container > div {
     background-color: #f4e1d2;
     width:500px;
@@ -150,6 +144,17 @@ img {
     font-size: 20px;
 }
 
+/*https://www.w3schools.com/css/css3_flexbox_responsive.asp*/
+  /* Responsive layout - makes a one column layout instead of a two-column layout */
+  @media (max-width: 1000px) {
+    
+    .flex-container {
+      flex-direction: column;
+    }
+  }
+
+
+/* HOOVER SETTING FOR TEXT INSIDE FLEXBOX*/
 /*https://codepen.io/anthonyadamski/pen/ukghm*/
 /*https://freefrontend.com/html-resume-templates/*/
 .skill-set li:hover
@@ -173,18 +178,12 @@ ul
 	padding:10px;
 	text-align:justify;
 }
-  /*h4 {
-      text-align: center;
-      color: #618685;
-      margin-top: 100px;
-      margin-bottom: 50px;
-      font-size: 3vh;
-  }*/
+
   p{
       text-align: center;
   }
   
-/* responsive gallery image style*/
+/* RESPONSIVE GALLERY image style*/
 
 div.gallery {
   border: 1px solid #ccc;
@@ -233,6 +232,8 @@ div.desc {
   display: table;
   clear: both;
 }
+
+
 #block1{
   background-color: #f4e1d2;
   padding: 5px;
@@ -270,34 +271,6 @@ div.desc {
 
 }
 
-
-.row {
-  display: flex;
-  flex-wrap: wrap;
-  padding: 0 4px;
-  margin-top: 50px;
-
-}
-
-/* Create four equal columns that sits next to each other */
-.column {
-  flex: 50%;
-  max-width: 50%;
-  padding: 0 4px;
-}
-
-.column img {
-  margin-top: 8px;
-  vertical-align: middle;
-}
-
-/* Responsive layout - makes a one column-layout instead of four columns */
-@media (max-width: 800px) {
-  .column {
-    flex: 100%;
-    max-width: 100%;
-  }
-}
 
 footer{
  background-color: #f4e1d2;
