@@ -7,7 +7,7 @@ I have build a single web page, using HTML and CSS.  Below are the steps and thi
 I had an initial meeting with _The client_ where we got to know each other a bit better. During the same session we layed out the plan and set up following objectives as:
 
 * get to know each other 
-* reasearch layout design 
+* research layout design 
 * create survey with layout options and color pallets
 * create survey to gather more content info
 * create wireframe
@@ -35,7 +35,7 @@ For inspiration around the layout and writing content I took a look at these [pe
 
 Most of my inspiration came from the material available on the **repos** offered and from **extensive googling**. 
 
-I was not sure how to set the nav bar to stay fixed at the top while scrolling to the page. This is where I have learned the importance of the **HTML structure**.  Set a `div` for the `header` and another `div` for my `main`. This allowed me to set the position fixed for the `navbar` and do my separate setting for the `main` using **CSS**.  I used [this]()https://www.w3schools.com/howto/howto_css_fixed_menu.asp) and [this](https://www.w3schools.com/howto/howto_js_topnav.asp) for guidance. 
+I was not sure how to set the nav bar to stay fixed at the top, while scrolling to the page. This is where I have learned the importance of the **HTML structure**.  I have set a `div` for the `header` and another `div` for my `main`. This allowed me to set the position fixed for the `navbar` and do my separate setting for the `main` using **CSS**.  I used [this](https://www.w3schools.com/howto/howto_css_fixed_menu.asp) and [this](https://www.w3schools.com/howto/howto_js_topnav.asp) for guidance. 
 
 ```CSS
 .navbar {
@@ -50,15 +50,15 @@ I was not sure how to set the nav bar to stay fixed at the top while scrolling t
   margin-top: 30px;
 }
 ```
-The `position: fixed` is what keeps the `navbar` in place and by using `width:100%` ( **max width**) I made it be the size of the page. 
+The `position: fixed` is what keeps the `navbar` in place and by using `width:100%` (**max width**) I made it be the size of the page. 
 
- When I was trying to link the buttons on my `navbar` with different sections of my page I have added a `section id=` to that part of the page. The `id` connects `navbar`. 
+When I was trying to link the buttons on my `navbar` with different sections of my page I have added a `section id=` to that part of the page. The `id` links to the `navbar`. 
  
- After takling with Kate I found out I can add both `class` and `id` to my `div` , which makes it easier.  The I still think having the `section id=` helps with the structure of the HTML code, so I have used both. 
+After talkling with Kate I found out I can add both `class` and `id` to my `div` , which makes it easier.  The I still think having the `section id=` helps with the structure of the HTML code, so I have used both. 
 
  ### Hero Image
 
- I wanted to have a smooth transition between the `header` and the `main`. I thought and image would be a good idea but I also wanted to add some writing on top of it. I chose *the sea* becasue Kate loves it and also the colors match the color scheme of the page. 
+ I wanted to have a smooth transition between the `header` and the `main`. I thought an image would be a good idea but I also wanted to add some writing on top of it. I chose *the sea* becasue Kate loves it and also the colors match the color scheme of the page. 
 
 Old friend google helped me again and used [this](https://www.w3schools.com/cssref/tryit.asp?filename=trycss3_background_hero) as guidance for my `hero text` and `hero image`. 
 
@@ -70,11 +70,11 @@ I have also used `float` and `claerfix` to diplay images side by side.
 
 ### Flexbox and Grid
 
-This was really good to learn. I think its a briiant techniques that allows you arrange text and also images with flexible height. I think this will be a really usefull tool to use in the future. 
+This was a really good to learn. I think its a briiant techniques that allows you arrange text and also images with flexible height. I think this will be a really usefull tool to use in the future. 
 
 ### Hoover and Inline block
 
-Used the `hoover` for both my navbar and the `list elemnts` to outline them. 
+Used the `hoover` for both my navbar and the `list items` to outline them. 
 
 Used:
 
@@ -88,7 +88,7 @@ Used:
 
  ### Responsive Galerry
 
- I chose this as a very creative and interactive solutiion to diplay images with added description. I particularly liked that you can open 
+ I chose this as a very creative and interactive solution to diplay images with added description. I particularly liked that you can open the image to a bigger size. 
 
  ### Media Query
 
@@ -98,8 +98,9 @@ Used:
 
  ### CSS units
 
- I have created 3 `div class=block` where my <h4> text is kept along the page. I did this to give my page a bit more structure and for the layout. At the moment I have a different `div` for each block because the `margin` set-up is different. I have the margins set as the background goes over the next bit when I change it. 
-  I think I need to reasearch on **CSS units**. 
+ I have created 3 `div class=block` to structure where my text is kept along the page.  I did this to give my page a bit more structure and for the layout. At the moment I have a different `div` for each block because the `margin` set-up is different. I have the margins set as the background goes over the next bit when I change it. 
+
+All in all I had a lot of fun doing this and learned a lot along the way.  
 
 # Website Challenge
 
