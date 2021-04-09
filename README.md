@@ -43,6 +43,9 @@ I used [this survey](https://docs.google.com/forms/d/e/1FAIpQLSc07OIUW2kmO5TVBpc
 
 I used [this survey](https://docs.google.com/forms/d/e/1FAIpQLSfSIawvVidNMcOGtmCbKLgnioHM78wjvPK80QjR1m_gmoDd0g/viewform?usp=sf_link) to collect content information from _The client_.
 
+I designed a ![wireframe](wireframe.png) to help me visualise where everything will go before starting coding. 
+
+
 
 
 

@@ -40,7 +40,6 @@ body {margin:0;}
 .main{
   padding: 16px;
   margin-top: 30px;
-  height: 5000px; /*to enable scrolling*/
   background: white;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
@@ -189,6 +188,7 @@ ul
 
 div.gallery {
   border: 1px solid #ccc;
+  
 }
 
 div.gallery:hover {
@@ -197,7 +197,7 @@ div.gallery:hover {
 
 div.gallery img {
   width: 100%;
-  height: auto;
+  height: 300px;
 }
 
 div.desc {
@@ -253,11 +253,10 @@ div.desc {
   font-size: 3vh; 
   margin-left: -20px;
   margin-right: -20px;
-  margin-top: 600px;
   margin-bottom: 100px;
+  margin-top: 600px;
 
 }
-
 #block3{
   background-color: #f4e1d2;
   padding: 5px;
@@ -266,8 +265,8 @@ div.desc {
   font-size: 3vh; 
   margin-left: -20px;
   margin-right: -20px;
-  margin-top: 600px;
   margin-bottom: 100px;
+  margin-top: 500px;
 
 }
 
