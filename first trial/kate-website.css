@@ -1,0 +1,65 @@
+.header{
+    padding: 20px;
+    text-align: center;
+    background: #bdcebe;
+    color: white;
+    font-size: 30px;
+}
+/*https://www.w3schools.com/css/tryit.asp?filename=trycss_align_pos*/
+p.blocktext {
+    margin-left: auto;
+    margin-right: auto;
+    width: 250px;
+    color: teal;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+/* Add a black background color to the top navigation */
+.topnav {
+    background-color: #96ceb4;
+    overflow: hidden;
+  }
+  
+  /* Style the links inside the navigation bar */
+  .topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  /* Change the color of links on hover */
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  /* Add a color to the active/current link */
+  .topnav a.active {
+    background-color: #618685;
+    color: white;
+  }
+  .right {
+    position: absolute;
+    right: 0px;
+    width: 300px;
+    border: 3px solid #73AD21;
+    padding: 10px;
+  }
+  .container {
+    display: flex;
+    align-items: center;
+    justify-content: center
+  }
+  img {
+    max-width: 100%
+  }
+  .image {
+    flex-basis: 40%
+  }
+  .text {
+    font-size: 20px;
+    padding-left: 20px;
+    background: #eca1a6;
+  }
